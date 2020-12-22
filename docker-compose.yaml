@@ -26,7 +26,7 @@ services:
     environment:
       WORDPRESS_DB_HOST: db:3306
       WORDPRESS_DB_USER: wordpress
-      WORDPRESS_DB_PASSWORD: Wordpress
+      WORDPRESS_DB_PASSWORD: wordpress
     networks:
       - wpsite
 networks:
