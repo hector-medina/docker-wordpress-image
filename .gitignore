@@ -32,3 +32,23 @@ Temporary Items
 .apdisk
 
 # End of https://www.toptal.com/developers/gitignore/api/macos
+
+# START gitignore for docker files in wordpress
+
+tmp
+backups
+wordpress/*
+!wordpress/wp-content
+
+wordpress/wp-content/*
+!wordpress/wp-content/plugins
+!wordpress/wp-content/themes
+
+wordpress/wp-content/plugins/*
+!wordpress/wp-content/plugins/.gitkeep
+
+wordpress/wp-content/themes/*
+!wordpress/wp-content/themes/.gitkeep
+
+# ENDS gitignore for docker files in wordpress
+
