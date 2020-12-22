@@ -31,5 +31,5 @@ services:
       - wpsite
 networks:
   wpsite:
-voumes:
+volumes:
   db_data:
